@@ -26,7 +26,7 @@ How do I use jQuery to transform my image links into overlay previews?
 Let's add restrictions. Limitations produce more creative ideas than freedom. So for these problem I want the solution to be:
 
 * a jQuery plugin
-* proof-of-concept include images and thumbnails - each are named as "image.jpg" and "image_thumb.jpg"
+* proof-of-concept include images and thumbnails - formatted as "image.jpg" and "image_thumb.jpg" correspondingly
 * does not know anything about the images - size or compression.
 * anchors are optional, but for semantic purposes and accessibility, thumbnails are wrapped in anchor tags with a corresponding href to the target URL.
     e.g.
@@ -68,6 +68,10 @@ Plugin will iterate on children of blocks converted to boxerJS blocks.
 
 
 TO prevent performance issues, the event listener/callback must be attached to the parent, instead of the child elements. Through event delegation optimize the event loop.
+
+### Create overlay
+
+TODO
 
 ## Installation
 
