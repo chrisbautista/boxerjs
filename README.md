@@ -1,6 +1,7 @@
 BoxerJS
 =======
 
+
 Yet another jQuery lightbox preview plugin. Why make another one? Making a plugin teaches you Javascript modular pattern and DOM manipulation. Like many  smart programmers would tell you. You learn more with doing than just reading lessons on the matter. If you find my plugin helpful send me a tweet or a like.  Happy coding!
 
 
@@ -8,16 +9,19 @@ Yet another jQuery lightbox preview plugin. Why make another one? Making a plugi
 ## Problem
 
 
+>
 > “The formulation of the problem is often more essential than its solution"
 >                                                        - Albert Einstein
+>                                                        - 
 
 
 Like many projects you start with the problem. With the problem in mind, you can  set out with a roadmap that will keep you focused on task.
 
-
 How do I use jQuery to transform my image links into overlay previews?
 
+
 ## Limitations
+
 
 Let's limit our solution. Limitations produces more creative ideas than freedom. So for these problem I want the solutions to be:
 
@@ -26,6 +30,7 @@ Let's limit our solution. Limitations produces more creative ideas than freedom.
 * Plugin does not know anything about the images - size or compression.
 * Anchors are optional but for semantic purposes and accessibility, thumbnails must be wrapped in anchor tags with a corresponding href reference to the target.
     e.g.
+
 ```html
 
     <a href="my_cool_image.png">
@@ -39,6 +44,7 @@ Let's limit our solution. Limitations produces more creative ideas than freedom.
 
 
 ## Solution
+
 
 Plugin will iterate on children of blocks converted to boxerJS blocks.  
 
@@ -65,6 +71,7 @@ TO prevent performance issues, the event listener/callback must be attached to t
 
 ## Installation
 
+
 1. Download from [https://github.com/chrisbautista/boxerjs](https://github.com/chrisbautista/boxerjs)
 
 ```bash
@@ -79,6 +86,7 @@ or
 
 
 ## Usage
+
 
 1. Copy boxer.js, boxer.css, and close.png into your project
 2. Include boxer.js and boxer.css
