@@ -58,11 +58,11 @@ TO prevent performance issues, the event listener/callback must be attached to t
 
 ```bash
 
-> git clone [https://github.com/chrisbautista/boxerjs](https://github.com/chrisbautista/boxerjs)
+> git clone https://github.com/chrisbautista/boxerjs
 
 or
 
-> wget [https://github.com/chrisbautista/boxerjs/archive/master.zip](https://github.com/chrisbautista/boxerjs/archive/master.zip)
+> wget https://github.com/chrisbautista/boxerjs/archive/master.zip
 
 ```
 
