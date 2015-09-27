@@ -20,9 +20,14 @@ Let's limit our solution. Limitations produces more creative ideas than freedom.
 * Plugin does not know anything about the images - size or compression.
 * Anchors are optional but for semantic purposes and accessibility, thumbnails must be wrapped in anchor tags with a corresponding href reference to the target.
     e.g.
-            <a href="my_cool_image.png">
-                <img src="my_cool_image_thumb.png" />
-            </a>
+```html
+
+    <a href="my_cool_image.png">
+        <img src="my_cool_image_thumb.png" />
+    </a>
+
+```
+
 * Plugin must iterate on a block and not the whole page. 
 
 
