@@ -23,9 +23,9 @@ How do I use jQuery to transform my image links into overlay previews?
 ## Limitations
 
 
-Let's limit our solution. Limitations produces more creative ideas than freedom. So for these problem I want the solution to be:
+Let's add restrictions. Limitations produces more creative ideas than freedom. So for these problem I want the solution to be:
 
-* A jQuery plugin
+* a jQuery plugin
 * proof-of-concept include images and thumbnails - each are named as "image.jpg" and "image_thumb.jpg"
 * does not know anything about the images - size or compression.
 * anchors are optional, but for semantic purposes and accessibility, thumbnails are wrapped in anchor tags with a corresponding href to the target URL.
