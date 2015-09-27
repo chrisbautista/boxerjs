@@ -112,12 +112,15 @@ $(".boxer").boxer();
 
 ```
 
-
 ## Roadmap
 
 * loading indicator
 * presentation mode
 * previous and next image indicators
+
+## Contributors
+
+* Chris Bautista - [@chrisbautista](http://github.com/chrisbautista)
 
 ## Troubleshooting
 
