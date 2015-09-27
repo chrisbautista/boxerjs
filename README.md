@@ -7,7 +7,13 @@ Yet another jQuery lightbox preview plugin. Why make another one? Making a plugi
 
 ## Problem
 
-> Like many projects you start with the problem. With the problem, you can  set out with a roadmap that will keep you focused on task.
+
+> “The formulation of the problem is often more essential than its solution"
+>                                                        - Albert Einstein
+
+
+Like many projects you start with the problem. With the problem in mind, you can  set out with a roadmap that will keep you focused on task.
+
 
 How do I use jQuery to transform my image links into overlay previews?
 
