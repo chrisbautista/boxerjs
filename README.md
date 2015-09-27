@@ -113,3 +113,15 @@ $(".boxer").boxer();
 ```
 
 
+## Roadmap
+
+* loading indicator
+* presentation mode
+* previous and next image indicators
+
+## Troubleshooting
+
+If you find a bug, sent a pull request or thought of a great idea to extend  boxerjs, shoot me an email at christopher dot bautista at gmai.com
+
+
+
