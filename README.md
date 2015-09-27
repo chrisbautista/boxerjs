@@ -23,12 +23,12 @@ How do I use jQuery to transform my image links into overlay previews?
 ## Limitations
 
 
-Let's limit our solution. Limitations produces more creative ideas than freedom. So for these problem I want the solutions to be:
+Let's limit our solution. Limitations produces more creative ideas than freedom. So for these problem I want the solution to be:
 
-* jQuery
-* I have images and thumbnails - each are named as "image.jpg" and "image_thumb.jpg"
-* Plugin does not know anything about the images - size or compression.
-* Anchors are optional but for semantic purposes and accessibility, thumbnails must be wrapped in anchor tags with a corresponding href reference to the target.
+* A jQuery plugin
+* proof-of-concept include images and thumbnails - each are named as "image.jpg" and "image_thumb.jpg"
+* does not know anything about the images - size or compression.
+* anchors are optional, but for semantic purposes and accessibility, thumbnails are wrapped in anchor tags with a corresponding href to the target URL.
     e.g.
 
 ```html
@@ -39,7 +39,7 @@ Let's limit our solution. Limitations produces more creative ideas than freedom.
 
 ```
 
-* Plugin must iterate on a block and not the whole page. 
+* must iterate on a block and not the whole page. 
 
 
 
