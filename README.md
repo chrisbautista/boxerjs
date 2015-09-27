@@ -39,7 +39,7 @@ Let's add restrictions. Limitations produce more creative ideas than freedom. So
 
 ```
 
-* must iterate on a block and not the whole page. 
+* must iterate on a DOM block(div, p, section etc) and not the whole page. 
 
 
 
