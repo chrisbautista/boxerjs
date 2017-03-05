@@ -2,7 +2,7 @@ BoxerJS
 =======
 
 
-Yet another jQuery lightbox preview plugin. Why make another one? Making a plugin teaches you Javascript modular pattern and DOM manipulation. Like many  smart programmers would tell you. You learn more with doing than just reading lessons on the matter. If you find my plugin helpful send me a tweet or a like.  Happy coding!
+Yet another jQuery lightbox plugin. Why make another one? Making a plugin teaches you Javascript modular pattern and DOM manipulation. Like many smart programmers would tell you. You learn more  by doing than just reading lessons on the matter. If you find my plugin helpful send me a tweet or a like.  Happy coding!
 
 
 
@@ -15,7 +15,7 @@ Yet another jQuery lightbox preview plugin. Why make another one? Making a plugi
 >                                                        - 
 
 
-Like many projects you start with the problem. With the problem in mind, you can  set out with a roadmap that will keep you focused on task.
+Like many projects, you start with the problem. With the problem in mind, you can set out with a roadmap that will keep you focused on the task.
 
 How do I use jQuery to transform my image links into overlay previews?
 
@@ -23,12 +23,13 @@ How do I use jQuery to transform my image links into overlay previews?
 ## Limitations
 
 
-Let's add restrictions. Limitations produce more creative ideas than freedom. So for this problem I want the solution to be:
+Let's add restrictions. Limitations produce more creative ideas than freedom. So for this problem, I want the solution to be:
 
 * a jQuery plugin
 * proof-of-concept include images and thumbnails - formatted as "image.jpg" and "image_thumb.jpg" correspondingly
+* content agnostic
 * does not know anything about the images - size or compression.
-* anchors are optional, but for semantic purposes and accessibility, thumbnails are wrapped in anchor tags with a corresponding href to the target URL.
+* anchors are optional, but for semantic purposes and accessibility, thumbnails must be wrapped in anchor tags with a corresponding href to the target URL.
     e.g.
 
 ```html
@@ -46,7 +47,7 @@ Let's add restrictions. Limitations produce more creative ideas than freedom. So
 ## Solution
 
 
-Plugin will iterate on children of blocks converted to boxerJS blocks.  
+The plugin will iterate on children of blocks converted to boxerJS blocks.  
 
 ```html
 
@@ -67,11 +68,11 @@ Plugin will iterate on children of blocks converted to boxerJS blocks.
 ```
 
 
-TO prevent performance issues, the event listener/callback must be attached to the parent, instead of the child elements. Through event delegation optimize the event loop.
+TO prevent performance issues, the callback must be attached to the parent, instead of the child elements.  This will optimize the event processing through event delegation.
 
 ### Create overlay
 
-TODO
+Using an overlay makes the solution a modal control. Modal meaning it prevents the user from accessing other portions of the page except for what's exposed by the modal control. 
 
 ## Installation
 
@@ -125,6 +126,5 @@ $(".boxer").boxer();
 ## Troubleshooting
 
 If you find a bug, sent a pull request or thought of a great idea to extend  boxerjs, shoot me an email at chris at codespud dot com
-
 
 
