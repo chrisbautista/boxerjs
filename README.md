@@ -124,6 +124,11 @@ $(".boxer").boxer();
 
 ```
 
+## Demo
+
+http://chrisbautista.github.io/projects/boxerjs/build/index.html
+
+
 ## Roadmap
 
 * loading indicator
