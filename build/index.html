@@ -6,6 +6,45 @@
     <link rel="stylesheet" href="js/boxer/boxer.min.css">
     <link rel="stylesheet" href="js/boxer-zoom.css">
     <style type="text/css">
+
+        body {
+            padding: 40px;
+            font-family: sans-serif;
+            color: #444;
+
+        }
+
+        #container {
+            max-width: 800px;
+            margin-top: 10px;
+            margin-bottom: 60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            color: #0DF;
+            font-size: 3em;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+        }
+
+        h2 {
+            color: #0DF;
+            font-size: 2.2em;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+            line-height: 16px;
+            max-width: 700px;
+        }
+
+        ul {
+            display: inline-block;
+            list-style: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            text-indent: 0px;
+            padding: 20px;
+        }
+
         table {
 
             width: 80%;
@@ -28,26 +67,77 @@
             color: #FEFEFE;
             font-weight: bold;
             border: 1px solid black;
+            padding: 7px;
         }
 
         td {
             border: 1px solid black;
+            padding: 7px;
         }
 
         .boxer {
-
+            max-width: 800px;
             padding: 30px;
             margin-top: 30px;
             margin-left: auto;
             margin-right: auto;
-            background-color: #FAFAFA;
-            border:;
+            background-color: #0DF;
+            border-radius: 6px;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+            line-height: 24px;
+
+        }
+
+        .jumbotron {
+            background-color: #EEE;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+            min-height: 100px;
+            padding: 30px;
+        }
+
+        #footer {
+            margin-top: 30px;
+            font-size: 0.7em;
+        }
+
+        #social {
+            font-size: 0.7em;
+            text-align: right;
         }
     </style>
 </head>
 <body>
 <h1>BoxerJs : Demo</h1>
 
+<div class="jumbotron">
+
+    Github repository: <a href="https://github.com/chrisbautista/boxerjs">https://github.com/chrisbautista/boxerjs</a>
+    <br><br>
+    <div>Usage:</div>
+    <p></p>
+    <ol>
+        <li>copy boxer.js, boxer.css, and close.png into your project</li>
+        <li>include boxer.js and boxer.css</li>
+        <li>wrap anchors in a container e.g. <br>
+            <code>
+                &lt;div class="boxer" &gt;
+                <br>&nbsp;&nbsp;&nbsp;&lt;a href="picture.png" title="this is a picture" &gt;
+                &lt;img src="picture_thumb.jpg" /&gt;
+                &lt;/a&gt;<br>
+                &lt;/div &gt;
+
+            </code>
+        </li>
+        <li>run code <br>
+            <code>
+
+                $(".boxer").boxer();
+
+            </code>
+        </li>
+    </ol>
+    <p></p>
+</div>
 
 <div class="boxer">
     <h4>Thumbnails</h4>
