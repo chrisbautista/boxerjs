@@ -96,10 +96,13 @@ or
 1. Copy boxer.js, boxer.css, and close.png into your project
 2. Include boxer.js and boxer.css
 ```html
+<!-- inside <head></head> tag -->
     <link rel="stylesheet" href="js/boxer/boxer.min.css">
 ```
 
 ```html
+<!-- near </body> tag -->
+
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/boxer/boxer.min.js"></script>
 ```
