@@ -107,21 +107,21 @@ or
     ```
 3. Wrap anchors in a container e.g. 
 
-```html
+    ```html
 
-<div class="boxer" > 
-   <a href="picture.png" title="this is a picture" > <img src="picture_thumb.jpg" /> </a>
-</div >
+    <div class="boxer" > 
+       <a href="picture.png" title="this is a picture" > <img src="picture_thumb.jpg" /> </a>
+    </div >
 
-```
+    ```
 
 4. Run code 
 
-```javascript
+    ```javascript
 
-$(".boxer").boxer();
+    $(".boxer").boxer();
 
-```
+    ```
 
 ## Demo
 
