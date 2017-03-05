@@ -88,13 +88,8 @@ or
 > wget https://github.com/chrisbautista/boxerjs/releases/latest
 
 ```
-
-
-## Usage
-
-
-1. Copy boxer.js, boxer.css, and close.png into your project
-2. Include boxer.js and boxer.css
+2. Copy boxer.js, boxer.css, and close.png into your project
+3. Include boxer.js and boxer.css
     
     Place stylesheet inside the head tag (&lt;head&gt;&lt;/head&gt;).
     ```html
@@ -107,7 +102,9 @@ or
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/boxer/boxer.min.js"></script>
     ```
-3. Wrap anchors in a container e.g. 
+## Usage
+
+1. Wrap anchors in a container e.g. 
 
     ```html
 
@@ -117,12 +114,12 @@ or
 
     ```
 
-4. Run code 
+2. Run code 
 
-    ```javascript
-
+    ```html
+    <script> 
     $(".boxer").boxer();
-
+    </script> 
     ```
 
 ## Demo
