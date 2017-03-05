@@ -126,7 +126,7 @@ $(".boxer").boxer();
 
 ## Demo
 
-http://chrisbautista.github.io/projects/boxerjs/build/index.html
+http://chrisbautista.github.io/boxerjs/
 
 
 ## Roadmap
