@@ -96,7 +96,7 @@ or
 1. Copy boxer.js, boxer.css, and close.png into your project
 2. Include boxer.js and boxer.css
     
-    Place stylesheet inside the head tag (&lt;head&gt;&lt;/head&gt;>).
+    Place stylesheet inside the head tag (&lt;head&gt;&lt;/head&gt;).
     ```html
 
     <link rel="stylesheet" href="js/boxer/boxer.min.css">
