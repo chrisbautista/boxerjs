@@ -79,15 +79,15 @@ Using an overlay makes the solution a modal control. Modal meaning it prevents t
 
 1. Download from [https://github.com/chrisbautista/boxerjs](https://github.com/chrisbautista/boxerjs)
 
-```bash
+    ```bash
 
-> git clone https://github.com/chrisbautista/boxerjs
+    > git clone https://github.com/chrisbautista/boxerjs
 
-or
+    or
 
-> wget https://github.com/chrisbautista/boxerjs/releases/latest
+    > wget https://github.com/chrisbautista/boxerjs/releases/latest
 
-```
+    ```
 2. Copy boxer.js, boxer.css, and close.png into your project
 3. Include boxer.js and boxer.css
     
