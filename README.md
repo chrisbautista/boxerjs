@@ -123,6 +123,21 @@ Using an overlay makes the solution a modal control. Modal meaning it prevents t
     </script> 
     ```
 
+### Options
+
+Default:
+```javascript
+var options= {
+            // default class selector for overlay, inserted at runtime
+            overlayName: "previewOverlay", 
+            
+            // set width and height
+            width: 600, 
+            height: 400
+    };    
+```
+
+
 ## Demo
 
 http://chrisbautista.github.io/boxerjs/
