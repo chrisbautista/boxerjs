@@ -36,6 +36,8 @@
             var overlay, configType, insideContainer, w, h;
             var thumb = e.target;
             e.preventDefault();
+            var x = e.clientX,
+                y = e.clientY;
 
             thumb = thumb.nodeName !== 'A' ? e.target.parentNode : thumb;
 
@@ -54,7 +56,10 @@
 
             insideContainer = buildInside(thumb, configType, function () {
                 outSideContainer.appendChild(insideContainer);
+
+                //setTimeout(function () {
                 outSideContainer.className = 'centered';
+                //}, 400)
 
                 if ($(outSideContainer)[0].firstChild.width) {
                     w = $(outSideContainer)[0].firstChild.width;
@@ -76,6 +81,9 @@
                  // works gracefully for divs
 
                 $(outSideContainer)[0].firstChild.width = w;
+                $(outSideContainer)[0].firstChild.top = y;
+                $(outSideContainer)[0].firstChild.left = x;
+
                 addCloseHandler(outSideContainer);
             });
 
