@@ -85,7 +85,7 @@ Using an overlay makes the solution a modal control. Modal meaning it prevents t
 
 or
 
-> wget https://github.com/chrisbautista/boxerjs/archive/master.zip
+> wget https://github.com/chrisbautista/boxerjs/releases/latest
 
 ```
 
