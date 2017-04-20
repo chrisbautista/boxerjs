@@ -155,6 +155,6 @@ http://chrisbautista.github.io/boxerjs/
 
 ## Troubleshooting
 
-If you find a bug, sent a pull request or thought of a great idea to extend  boxerjs, shoot me an email at chris at codespud dot com
+If you find a bug, send a pull request or thought of a great idea to extend  boxerjs, shoot me an email at chris at codespud dot com
 
 
