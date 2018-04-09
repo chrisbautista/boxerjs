@@ -23,8 +23,7 @@
             closeBtn.className = "boxer-closeBtn";
             $($main).find('> div').prepend(closeBtn);
             $btn = $(".boxer-closeBtn");
-            // $btn.css('top', (parseInt($cntnr.css('top')) - 20) + "px");
-            // $btn.css('left', (parseInt($cntnr.css('left')) + parseInt($cntnr.css('width')) + 12) + "px");
+        
             $main.on('click', function () {
                 $cntnr.remove();
                 $(this).remove();
